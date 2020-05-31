@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'UglyQua';
+    src: url('../fonts/UglyQua.ttf.woff') format('woff'),
+    url('../fonts/UglyQua.ttf.svg#UglyQua') format('svg'),
+    url('../fonts/UglyQua.ttf.eot'),
+    url('../fonts/UglyQua.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: white;
+}
+
+img {
+    margin : auto;
+}
+
+.full-width {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-top: -52px;
+    margin-bottom: 0px;
+}
+
+.template-container {
+    padding: 0 30px;
+}
+
+.row {
+    margin: 0 0 0 0;
+}
+
+.widget {
+    overflow: hidden;
+}
+
+.template-container .row:first-child > .widget:first-child {
+    margin-top: 30px;
+}
+
+.widget-margin {
+    margin-top: 30px;
+}
+
+.panel {
+    width: 100%;
+    height: 100%;
+	margin-bottom: 10px;
+}
+
+.panel-body {
+    height: 90%;
+}
+
+.title {
+    font-family: UglyQua;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+li.list-group-item span.cardname{
+    font-family: UglyQua;
+}
+
+.Assets li.list-group-item {
+    background-image: none;
+    background-color: #dfcb9a;
+    color: black;
+}
+
+.UniqueAssets li.list-group-item {
+    background-image: none;
+    background-color: #d3a84a;
+    color: black;
+}
+
+.Conditions li.list-group-item {
+    background-image: none;
+    background-color: #e8e8c7;
+    color: black;
+}
+
+.Spells li.list-group-item {
+    background-image: none;
+    background-color: #835e8e;
+    color: white;
+}
+
+.Artifacts li.list-group-item {
+    background-image: none;
+    background-color: #a73a41;
+    color: white;
+}
+
+.Ancients li.list-group-item {
+    background-image: none;
+    background-color: #415E32;
+    color: white;
+}
+
+.Investigateurs li.list-group-item {
+    background-image: none;
+    background-color: #808080;
+    color: black;
+}
+
+.Monstres li.list-group-item {
+    background-image: none;
+    background-color: #AC9C8D;
+    color: black;
+}
+
+.MonstresEpiques li.list-group-item {
+    background-image: none;
+    background-color: #B56046;
+    color: black;
+}
+
+.badge {
+    background-color: black;
+    color: white;
+}
+
+.list-group-item > .glyphicon-remove {
+    float: right;
+    margin-left: 30px;
+}
+
+#mainTitle {
+    width: 400px; /*can be in percentage also.*/
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+}
+
+#expansions {
+    font-family: UglyQua;
+}
+
+#selectedExpansions {
+    font-family: UglyQua;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#specialFont {
+    font-family: UglyQua;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#cardImgAssets {
+  left: 0px;
+  width: 176px;
+  height: 275px;
+  background: url('../ResUniq_1.jpg');
+  background-position: 176px 0px; /* Visible coordinates in image */
+  background-size: 600%;
+}
+
+.btn {
+    font-family: UglyQua;
+
+}
+
+.expImg {
+  opacity: 1;
+  display: block;
+  width: 64px;
+  height:64px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.expName {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #337ab7;
+}
+
+.expText {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.selectedExpansion {
+    text-align: center;
+	padding: 5px 5px 5px 5px;
+}
+
+.selectedExpansion:hover .expImg {
+  opacity: 0.3;
+}
+
+.selectedExpansion:hover .expName {
+  opacity: 1;
+}
+
+
